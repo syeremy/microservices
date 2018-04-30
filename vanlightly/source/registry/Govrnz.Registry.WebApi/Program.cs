@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ElCavernas.Govrnz.Registry.WebApi
+namespace Elcavernas.Govrnz.Registry.WebApi
 {
     public class Program
     {

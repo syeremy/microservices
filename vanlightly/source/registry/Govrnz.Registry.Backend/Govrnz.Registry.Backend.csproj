@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.2</LangVersion>
     <AssemblyName>ElCavernas.Govrnz.Registry.Backend</AssemblyName>
     <RootNamespace>ElCavernas.Govrnz.Registry.Backend</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 </Project>
