@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElCavernas.Govrnz.Registry.WebApi", "ElCavernas.Govrnz.Registry.WebApi\ElCavernas.Govrnz.Registry.WebApi.csproj", "{8D952B99-958D-42BC-9A8B-7FE62D8DCCA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Govrnz.Registry.WebApi", "Govrnz.Registry.WebApi\Govrnz.Registry.WebApi.csproj", "{8D952B99-958D-42BC-9A8B-7FE62D8DCCA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElCavernas.Govrnz.Registry.Core", "ElCavernas.Govrnz.Registry.Core\ElCavernas.Govrnz.Registry.Core.csproj", "{6E484E28-5F72-4CA7-B733-8A7BABB58822}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Govrnz.Registry.Core", "Govrnz.Registry.Core\Govrnz.Registry.Core.csproj", "{6E484E28-5F72-4CA7-B733-8A7BABB58822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElCavernas.Govrnz.Registry.Backend", "ElCavernas.Govrnz.Registry.Backend\ElCavernas.Govrnz.Registry.Backend.csproj", "{4CF6DBC5-C049-44A3-86FF-5B72186BA79F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Govrnz.Registry.Backend", "Govrnz.Registry.Backend\Govrnz.Registry.Backend.csproj", "{4CF6DBC5-C049-44A3-86FF-5B72186BA79F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
