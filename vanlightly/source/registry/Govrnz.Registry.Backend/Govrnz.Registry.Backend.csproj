@@ -5,4 +5,10 @@
     <RootNamespace>ElCavernas.Govrnz.Registry.Backend</RootNamespace>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="5.0.1-alpha-0002" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Govrnz.Registry.Core\Govrnz.Registry.Core.csproj" />
+  </ItemGroup>
 </Project>

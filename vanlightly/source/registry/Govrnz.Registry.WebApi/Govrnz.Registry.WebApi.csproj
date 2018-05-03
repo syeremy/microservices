@@ -4,12 +4,25 @@
     <LangVersion>7.2</LangVersion>
     <AssemblyName>ElCavernas.Govrnz.Registry.WebApi</AssemblyName>
     <RootNamespace>ElCavernas.Govrnz.Registry.WebApi</RootNamespace>
+    <IncludeDocumentationProjectOutputGroup>true</IncludeDocumentationProjectOutputGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="5.0.1-alpha-0002" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.0.1-alpha-0002" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0-preview2-final" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.0-preview2-final" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\extensions\configuration\Govrnz.Extensions.Configuration.csproj" />
+    <ProjectReference Include="..\Govrnz.Registry.Backend\Govrnz.Registry.Backend.csproj" />
+    <ProjectReference Include="..\Govrnz.Registry.Core\Govrnz.Registry.Core.csproj" />
   </ItemGroup>
 </Project>
